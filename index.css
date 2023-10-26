@@ -404,6 +404,8 @@ aside {
   flex-shrink: 0;
   padding-top: 10px;
 }
+
+
 .lasty .dye {
   padding-left: 10px;
 }
@@ -419,3 +421,9 @@ aside {
   font-size: 17pxx;
   padding-left: 4px;
 }
+@media screen and (min-width: 480px) {
+  .cloud-storage{
+    visibility: hidden;
+  }
+}
+  
