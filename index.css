@@ -421,9 +421,5 @@ aside {
   font-size: 17pxx;
   padding-left: 4px;
 }
-@media screen and (min-width: 480px) {
-  .cloud-storage{
-    visibility: hidden;
-  }
-}
+
   
