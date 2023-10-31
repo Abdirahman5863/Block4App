@@ -147,7 +147,7 @@ h6 {
 
 nav {
   display: flex;
-  gap: 400px;
+  justify-content: space-between;
 }
 nav i {
   font-size: 20px;
@@ -181,19 +181,16 @@ input.nosubmit {
 }
 .addition {
   display: flex;
-  flex-direction: row;
-  gap: 740px;
+padding-top: 20px;
   padding-left: 30px;
-  margin-top: 15px;
+  justify-content: space-between;
 }
 .add {
   display: flex;
   width: 105px;
-
   padding: 10px 20px;
   justify-content: center;
   align-items: center;
-  gap: 8px;
   border-radius: 8px;
   background: #ebf2ff;
   color: rgba(255, 128, 1, 1);
@@ -212,9 +209,8 @@ aside {
   padding-top: 20px;
   flex-flow: row wrap;
   width: 100%;
-  gap: 20px;
   align-content: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 .file {
   color: #051f61;
@@ -328,57 +324,27 @@ aside {
   align-items: center;
   text-align: center;
 }
-.recent {
-  border-radius: 40px;
-  border: 1px solid whitesmoke;
-  padding-right: 10px;
-  width: 100%;
-  gap: 120px;
-  background-color: #fff;
+.recent{
+  display: flex;
+  justify-content: space-between;
+
+
+  width:100%;
+
   padding-top: 20px;
+  
+
 }
-.file {
-  padding-bottom: 20px;
-  padding-left: 30px;
-}
-.head {
+.head1{
   display: flex;
-  /* padding: 50px; */
-  padding-left: 2px;
-  padding-top: 35px;
-  padding-bottom: 20px;
-  border: 1px solid whitesmoke;
-  gap: 120px;
-  padding-left: 50px;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+  padding-left: 20px;
+
 }
-.lasty {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 30px;
-  border-radius: 20px;
-  border: 1px solid whitesmoke;
-  /* padding-right: 90px; */
-}
-.medy {
-  color: #ff8001;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  padding-bottom: 5px;
-  padding-left: 10px;
-}
-.pic i {
-  font-size: 20px;
-  background: rgba(242, 153, 74, 0.1);
-  border-radius: 12px;
-  color: #ff8001;
-  align-items: center;
-  align-content: center;
-  display: inline-block;
-  padding: 15px;
-}
-.folder i {
+
+.folder i{
   font-size: 20px;
   background: rgba(0, 97, 255, 0.1);
   border-radius: 12px;
@@ -386,9 +352,19 @@ aside {
   align-items: center;
   align-content: center;
   display: inline-block;
-  padding: 15px;
 }
-.video i {
+.pic i{
+  font-size: 20px;
+  background: rgba(242, 153, 74, 0.1);
+  border-radius: 12px;
+  color: #ff8001;
+  align-items: center;
+  align-content: center;
+  display: inline-block;
+  /* padding-left: 30px; */
+  
+}
+.video i{
   font-size: 20px;
   background: rgba(187, 107, 217, 0.1);
   border-radius: 12px;
@@ -396,30 +372,93 @@ aside {
   align-items: center;
   align-content: center;
   display: inline-block;
-  padding: 15px;
-}
-.lasty .dye img {
-  width: 26px;
-  height: 29px;
-  flex-shrink: 0;
-  padding-top: 10px;
-}
 
 
-.lasty .dye {
+
+}
+.head2{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 200px;
+
+}
+.dye{
+  display: flex;
+  justify-content: center;
+  color: #ff8001;
+  border-radius: 20px;
+  background: #ebf2ff;
+
+
+}
+.file{
   padding-left: 10px;
 }
+.mine img{
+  width: 25px;
+}
 
-.numbers {
-  padding-top: 20px;
+.head3{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+
+}
+.head4{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+
+}
+.head5{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 200px;
+
+}
+.dye{
+  display: flex;
+  border-radius: 20px;
+  background-color: #ebf2ff;
+}
+.medy{
   color: #ff8001;
-  background: #ebf2ff;
-  border-radius: 15px;
-  text-align: start;
-  padding-right: 5px;
-  padding-bottom: 3px;
-  font-size: 17pxx;
-  padding-left: 4px;
+}
+.social{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px;
+
+}
+
+
+.social i{ 
+  display: inline-flex;
+  justify-content: center;
+  width: 40px;
+  min-height: 40px;
+  background: transparent;
+  border: 2px solid #ff8001;
+  border-radius: 30px;
+  font-size: 20px;
+  color:#ebf2ff;
+  text-decoration: none;
+background-color:#ff8001;;
+
+  align-items: center;
+  
+}
+
+.social a:hover{
+  box-shadow: 0 0 20px #ff8001;
+  background-color: #ff8001;
+  border-radius: 30px;
+
 }
 
   
